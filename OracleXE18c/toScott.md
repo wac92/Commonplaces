@@ -82,7 +82,8 @@
         デフォルトのパス「C:\app\\(ユーザ名)\product\18.0.0\dbhomeXE\network\admin\tnsnames.ora」
         
         - ファイルの中にこんなブロックがあると思います。
-        ``` XE =
+        ```
+        XE =
         (DESCRIPTION =
             (ADDRESS = (PROTOCOL = TCP)(HOST = *なんとか*)(PORT = 1521))
             (CONNECT_DATA =
@@ -91,8 +92,9 @@
             )
         )
         ``` 
-        - まるまるコピーして、上のブロックの下にでも貼り付けたのち、XEという部分を**XEPDB1**とします。
-        ``` XEPDB1 =
+        - まるまるコピーして、上のブロックの下に貼り付けたのち、XEという部分を**XEPDB1**とします。
+        ```
+        XEPDB1 =
         (DESCRIPTION =
             (ADDRESS = (PROTOCOL = TCP)(HOST = *なんとか*)(PORT = 1521))
             (CONNECT_DATA =
