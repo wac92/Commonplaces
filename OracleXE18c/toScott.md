@@ -48,7 +48,7 @@
 3.  サンプルスキーマを作成する。
     1. utlsampl.sqlを編集する 
     - このファイルでサンプルスキーマの作成とデータの挿入がまるっとできます。テキストエディタで開いてください。
-        + デフォルトのパス：「C:\app\(ユーザ名)\product\18.0.0\dbhomeXE\rdbms\admin\utlsampl.sql」
+        + デフォルトのパス：「C:\app\\(ユーザ名)\product\18.0.0\dbhomeXE\rdbms\admin\utlsampl.sql」
     - このファイルの以下の部分を編集してください。
         + 45行目
 
