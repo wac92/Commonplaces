@@ -35,7 +35,7 @@
     1. 以下のサイトにアクセスします。
         + [Oracle Database Express Edition | Oracle 日本](https://www.oracle.com/jp/database/technologies/appdev/xe.html)
     2. 「Oracle Database XEをダウンロード」をクリックします。
-    3. OSの選択画面が出ます。Windowsであれば、「Oracle Database 18c Express Edition for Windows x64」のリンク文字をクリックします。
+    3. OSの選択画面が出ます。Windowsであれば、「Oracle Database 18c Express Edition for Windows x64」のリンクテキストをクリックします。
     4. 利用規約の確認ポップアップが出てくるので、チェックボックスにチェックして、ダウンロードを開始します。
     5. ダウンロードしたzipファイルを解凍します。
 
@@ -45,7 +45,6 @@
         - インストールには10分～20分かかります。    
 
 3.  サンプルスキーマを作成する。
-- 本題です。
     1. utlsampl.sqlを編集する 
     - このファイルでサンプルスキーマの作成とデータの挿入がまるっとできます。テキストエディタで開いてください。
         + デフォルトのパス：「C:\app\(ユーザ名)\product\18.0.0\dbhomeXE\rdbms\admin\utlsampl.sql」
@@ -79,7 +78,7 @@
     2. tnsnames.oraを編集する
     - 上の```CONNECT SCOTT/tiger@XEPDB1```という文を成功させるために接続識別子~~とやら~~を解決する必要があります。こちらもテキストエディタで開いてください。
         
-        デフォルトのパス「C:\app\(ユーザ名)\product\18.0.0\dbhomeXE\network\admin\tnsnames.ora」
+        デフォルトのパス「C:\app\\(ユーザ名)\product\18.0.0\dbhomeXE\network\admin\tnsnames.ora」
         
         - ファイルの中にこんなブロックがあると思います。
         ``` XE =
@@ -137,4 +136,7 @@
     [サンプル・スキーマの概要](https://docs.oracle.com/cd/E82638_01/comsc/introduction-to-sample-schemas.html)
     
     とあり、現在は「HRスキーマ」というものが、サンプルスキーマとして使われているようです。
-- こちらに関しても時期を見て導入してみたいと思います。ありがとうございました。
+- こちらに関しても時期を見て導入してみたいと思います。
+
+## 参考サイト
+- 
