@@ -17,7 +17,7 @@
 - インストールすると約4GBになります。
 - 起動中はメモリを約300MB～500MB食います。
 
-    - これらの条件が厳しいようであれば、OracleLiveSQLという、オンライン上で演習できる公式サイトもあります。
+- これらの条件が厳しいようであれば、OracleLiveSQLという、オンライン上で演習できる公式サイトもあります。
     [Live SQL](https://www.oracle.com/technetwork/jp/database/application-development/livesql/index.html)
     - メリット
         + ローカルに環境構築をする必要がない。
