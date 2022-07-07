@@ -1,3 +1,6 @@
 Linuxからのテスト
 
 これはmaster
+
+これはfeature1のコミットになるはず
+mergeしました。
